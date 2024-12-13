@@ -167,7 +167,8 @@ html {
 }
 
 .masthead {
-    padding-top: calc(6rem + 74px);
+    padding-top: 6rem;
+    padding-bottom: 2rem;
 }
 
 .masthead .masthead-heading {
@@ -183,7 +184,7 @@ html {
     width: 15rem;
 }
 
-@media (min-width: 992px) {
+/*@media (min-width: 992px) {
     .masthead {
         padding-top: calc(6rem + 104px);
         padding-bottom: 6rem;
@@ -197,7 +198,7 @@ html {
     .masthead .masthead-subheading {
         font-size: 1.5rem;
     }
-}
+}*/
 
 .portfolio .portfolio-item {
     cursor: pointer;
